@@ -1,0 +1,19 @@
+.back-btn{
+    border: none;
+    background-color: antiquewhite;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    top: 50px;
+    left: 1%;
+}
+
+.img-div[dir="rtl"]{
+    float: left;
+}
+.text[dir="rtl"]{
+    float: right;
+}
+.button-class[dir="rtl"]{
+    float: right;
+}

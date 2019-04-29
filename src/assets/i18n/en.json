@@ -1,0 +1,10 @@
+{
+  "Title": "Translation website",
+  "home":"Home",
+  "subject":"Subject",
+  "app":"App",
+  "title2":"Service channels and modes of payment",
+  "Introduction":"The UAE Government’s services are accessible through online and offline channels. In addition, the government provides multiple payment options that include cash payment over the counter. Most federal ministries and local entities facilitate electronic payment and mobile payment in a secure cyber environment.",
+  "learn":"Learn more",
+  "redirect-learn":"When the user clicks a hero item in the HeroesComponent, the app should navigate to the HeroDetailComponent, replacing the heroes list view with the hero detail view. The heroes list view should no longer show hero details as it does now.Open the HeroesComponent template (heroes/heroes.component.html) and delete the <app-hero-detail> element from the bottom.Clicking a hero item now does nothing. You'll fix that shortly after you enable routing to the HeroDetailComponent."
+}

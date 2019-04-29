@@ -1,0 +1,53 @@
+<html [dir]='dire'>
+  <div [dir]='dire'>
+<!-- <nav class="navbar navbar-inverse" [dir]='dire' >
+  <div class="container-fluid"  >
+    <div class="navbar-header" [dir]='dire' >
+      <a class="navbar-brand" [dir]='dire' href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav" [dir]='dire'>
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">App</a></li>
+      <li><a href="#">Subject</a></li>
+    </ul>
+    <button class="btn btn-danger navbar-btn" (click)="eng()">english</button>
+    <button  class="btn btn-danger navbar-btn" (click)="ara()">arabic</button>
+  </div>
+</nav> -->
+
+<div class="container-fluid main">
+<div style="display:inline-block" class="title" translate>Title </div>
+<div style="display:inline-block" class="title" translate>home </div>
+<div style="display:inline-block"class="title" translate >subject </div>
+<div style="display:inline-block"class="title" translate>app </div>
+
+
+
+<button class="btn btn-danger navbar-btn eng-class" (click)="eng()">English</button>
+<button  class="btn btn-danger navbar-btn eng-class" (click)="ara()">Arabic</button>
+</div>
+
+
+
+
+
+
+</div>
+  
+<div class="container" [dir]='dire'>
+  <!-- <h3>Basic Navbar Example</h3>
+  <div style="display:inline-block">
+  <div style="display:inline-block">first</div>
+  <div style="display:inline-block">second</div>
+  </div>
+  <p>A navigation bar is a navigation header that is placed at the top of the page.</p> -->
+  <h2 class="title2" translate>title2</h2>
+  <div class="col-lg-6 text" [dir]='dire' translate>
+      Introduction
+      <p>
+        <a  routerLink="/learn" class="btn button-class" translate>learn</a>
+      </p>
+  </div>
+  <div class="col-lg-6 img-div" [dir]='dire'><img class="image" src="assets/images/ePayment.jpg"> </div>
+</div>
+</html>
